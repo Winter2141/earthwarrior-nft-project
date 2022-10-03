@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Kepler Std';
+  src: url('KeplerStd-BoldScnDisp.woff2') format('woff2'),
+      url('KeplerStd-BoldScnDisp.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+.kepler {
+  font-family: 'Kepler Std';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.swiper {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+
+.button-connect {
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: white!important;
+  opacity: 0.5;
+}
+
+#videoBG {
+  position: relative;
+  height:100%;
+}
+
+#videoBG:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #000000 25%, #00000000);
+}
+
+#story {
+  background: linear-gradient(to bottom, #00000000 25%, #1a100f), url('../assets/images/min/Background-layer1-min.png');
+  background-size: cover;
+  background-position: top center;
+}
+
+#collection {
+  background: linear-gradient(to bottom, #1a100f 10%, #0e0e0f 100%);
+}
+
+#roadmap {
+  background: linear-gradient(to bottom, #000000ab 2%, #00000000 98%), url('../assets/images/min/roadmap-bg-min.png');
+  background-blend-mode: overlay;
+}
+
+#team {
+  background-image: url('../assets/images/min/paper-bg-min.jpg');
+  background-color: #d7d7d7;
+}
+
+#faq {
+  background-image: url('../assets/images/min/faq-bg-min.png');
+}
+
+.signature-wrapper {
+  display: none!important;
+}
